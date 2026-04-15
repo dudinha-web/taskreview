@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task Review</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="/img/book-minimalistic-svgrepo-com.svg"/>
+    </head>
+    <body>
+        <!-- Container Principal -->
+        <div class="container">
+
+            <!-- To Do List Header -->
+            <div class="container__title" id="header">
+                <h3> Task Review: Gerenciamento de Tarefas </h3>
+            </div>
+
+            <!-- Cria caixa de input -->
+            <div id="container-form">
+                <input
+                    type="text"
+                    class="input-item"
+                    name="input_box"
+                    id="input-box"
+                    placeholder="Adicionar tarefa"
+                />
+                <button id="input-button" onclick="addTask()">Add</button>
+
+                <hr>
+
+                <h4>Lista de Tarefas: </h4>
+                <ul id="container-list">
+
+                </ul>
+            </div>
+              
+        </div>
+        
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
