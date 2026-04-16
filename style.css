@@ -110,9 +110,12 @@ margin-top: 10px;
 	
 	#input-box {
     font-size: 14px;
+	width: 92%;	
 	}
 	
 	#input-button {
     font-size: 14px;
+	width: 100%;
+    margin-top: 12px;
 	}
 }
