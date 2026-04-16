@@ -87,3 +87,32 @@ margin-top: 10px;
   color: gray;
   border: 1px solid rgba(128, 128, 128, 0.5);
 }
+
+@media (max-width: 768px)
+{
+	body { 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-itemns: center;
+    justify-content: center;
+    margin-top: 0;
+	}
+	
+	.container {
+    width: 270px;
+    padding: 12px;
+	}
+	
+	#header {
+    font-size: 18px;
+	}
+	
+	#input-box {
+    font-size: 14px;
+	}
+	
+	#input-button {
+    font-size: 14px;
+	}
+}
