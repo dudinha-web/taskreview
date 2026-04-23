@@ -46,7 +46,7 @@ function addTask() {
 
     // Remover tarefa
     excluirBtn.addEventListener("click", function () {
-    if (confirm("Are you sure you want to delete this task?")) {
+    if (confirm("Deseja Excluir essa tarefa?")) {
         li.remove();
     }
     });
