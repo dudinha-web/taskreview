@@ -37,7 +37,7 @@ function addTask() {
 
     // Função para editar tarefa
     editarBtn.addEventListener("click", function () {
-    const update = prompt("Edit task:", taskSpan.textContent);
+    const update = prompt("Editar tarefa:", taskSpan.textContent);
     if (update !== null) {
         taskSpan.textContent = update;
         li.classList.remove("completed");
